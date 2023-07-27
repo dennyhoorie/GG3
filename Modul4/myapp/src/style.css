@@ -1,0 +1,9 @@
+.avatar_username{
+font-weight: 20px;
+}
+
+.avatar_image {
+    height:  40px;
+    width:  40px;
+    border-radius: 50%;
+}
