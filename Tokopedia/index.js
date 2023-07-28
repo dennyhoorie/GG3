@@ -9,7 +9,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const mongooseString = process.env.DATABASE_URL;
 
-mongoose.connect(mongoString);
+mongoose.connect(mongooseString);
 const database = mongoose.connection;
 
 

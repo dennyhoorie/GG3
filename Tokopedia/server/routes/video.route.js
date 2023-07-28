@@ -3,9 +3,9 @@ const router = express.Router();
 const Video = require('../controllers/video.controller');
 
 // show all videos
-router.get("/videos", video.controller.getAllVideo);
+router.get("/videos", Video.getAllVideo);
 
 // add video
-router.post("/add-video", video.controller.addVideo);
+router.post("/add-video", Video.addVideo);
 
 module.exports = router;
